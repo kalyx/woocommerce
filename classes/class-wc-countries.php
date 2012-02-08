@@ -515,7 +515,7 @@ class WC_Countries {
 	}
 	
 	/** Outputs the list of countries and states for use in multiselect boxes */
-	function country_multiselect_options( $selected_countries = '', $escape=false ) {
+	function country_multiselect_options( $selected_countries = '', $escape=true ) {
 		
 		asort($this->countries);
 		
